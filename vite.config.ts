@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
+      registerType: 'prompt',
       includeAssets: ['vite.svg'],
       manifest: {
         name: 'Vite + React PWA Demo',
